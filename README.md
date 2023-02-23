@@ -9,3 +9,4 @@ single linked list
         [   ] -> pointer to next node
         [   ] -> pointer to an element
     }
+main is in lList class
