@@ -62,7 +62,7 @@ public class lList {
             }
         }
     }
-    public void delete(Node cur, int n){ // deleate helper
+    public void delete(Node cur, int n){ // delete helper
         if(cur.getNext() != null){
             if(cur.getNext().getData().getId() == n){
                 cur.setNext(cur.getNext().getNext());
@@ -109,12 +109,18 @@ public class lList {
         list.add(new covidVaccine(158156,"audii",new String[] {"pfizer","moderna","corona"}));
         list.add(new covidVaccine(254843,"nabe",new String[] {"pfizer","moderna","corona"}));
         list.traversal();
-        System.out.println("after deletion/////////////////////////////////////////");
+        //random delete 2 nodes
+        System.out.println("\nafter deletion/////////////////////////////////////////\n");
         list.delete(158156);
+        list.delete(254843);
         list.traversal();
-        System.out.println("after delete all/////////////////////////////////////////");
+        System.out.println("\nafter delete all///////////////////////////////////////\n");
         list.clear();
         list.traversal();
+        System.out.println("\n//End program\n");
+    }
+    public void randomDelete(){
+
     }
        
 }
