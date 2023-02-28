@@ -1,7 +1,7 @@
 /*
  * @author Narongchai Rongthong
  * 652115013
- * written on 21/02/2022
+ * written on 21/02/2023
  * https://github.com/t1ww
  */
 public class lList {
